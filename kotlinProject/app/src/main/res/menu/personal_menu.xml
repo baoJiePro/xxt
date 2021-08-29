@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/my_caifu" />
+    <item
+        android:title="@string/normal_problem" />
+
+    <item
+        android:title="@string/manager_center" />
+
+    <item
+        android:id="@+id/data_query"
+        android:title="@string/query_data" />
+
+    <item
+        android:id="@+id/data_big"
+        android:title="@string/big_data" />
+
+    <item
+        android:id="@+id/app_bar_face"
+        android:title="@string/face"
+        app:actionViewClass="android.widget.Switch"
+        app:showAsAction="always" />
+</menu>
